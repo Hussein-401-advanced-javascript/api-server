@@ -1,0 +1,27 @@
+
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "electronics after UPDATE",
+      "display_name": "electronics",
+      "description": "a category for Electronics products"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "category": "electronics",
+      "name": "electronics11",
+      "display_name": "electronics",
+      "description": "a category for electronics products11"
+    },
+    {
+      "id": "BuIwDxs",
+      "category": "jobs",
+      "name": "jobs",
+      "display_name": "Jobs",
+      "description": "a category for Jobs available"
+    }
+  ]
+}

@@ -22,7 +22,12 @@
     1. **Lint test**: `npm run lint`
     2. **Code test**: `npm run test`
 ## UML
- - Will be added after the entaire app completed.
+ 1. lab-07 UML  
+
+ ![lab-07 UML](./assests/lab-07.PNG)
+ 1. lab-08 UML  
+ 
+ ![lab-07 UML](./assests/class-08.PNG)
 ## Solution
  - Create api-server repository
  - Install json-server globally on your computer `npm install -g json-server`

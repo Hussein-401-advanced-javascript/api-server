@@ -25,9 +25,12 @@
  1. lab-07 UML  
 
  ![lab-07 UML](./assests/lab-07.PNG)
- 1. lab-08 UML  
+ 2. lab-08 UML  
  
  ![lab-07 UML](./assests/class-08.PNG)
+ 2. lab-09 UML  
+ 
+ ![lab-07 UML](./assests/class09.PNG)
 ## Solution
  - Create api-server repository
  - Install json-server globally on your computer `npm install -g json-server`

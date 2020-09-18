@@ -1,0 +1,111 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "defaultTitle",
+    "description" : "defaultDescription",
+    "version" : "0.1"
+  },
+  "servers" : [ {
+    "url" : "http://localhost:3000"
+  } ],
+  "paths" : {
+    "/api/v1/products/22" : {
+      "get" : {
+        "description" : "Auto generated using Swagger Inspector",
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "http://localhost:3000"
+      } ]
+    },
+    "/api/v1/products" : {
+      "get" : {
+        "description" : "Auto generated using Swagger Inspector",
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      },
+      "post" : {
+        "description" : "Auto generated using Swagger Inspector",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "type" : "object",
+                "properties" : {
+                  "name" : {
+                    "type" : "string"
+                  },
+                  "description" : {
+                    "type" : "string"
+                  },
+                  "id" : {
+                    "type" : "string"
+                  },
+                  "category" : {
+                    "type" : "string"
+                  },
+                  "display_name" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "examples" : {
+                "0" : {
+                  "value" : "{\n        \"id\": \"22\",\n        \"category\": \"22\",\n        \"name\": \"22\",\n        \"display_name\": \"22\",\n        \"description\": \"22\"\n    }\n"
+                }
+              }
+            }
+          }
+        },
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "http://localhost:3000"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "http://localhost:3000"
+      } ]
+    }
+  }
+}
